@@ -1,0 +1,83 @@
+
+#back_home a {
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border: 3px solid lightgrey;
+}
+
+h2 {
+  text-align: center;
+}
+
+#score {
+  text-align: center;
+}
+
+.grid {
+  margin: 20px;
+  width: 560px;
+  height: 300px;
+  border: solid black 1px;
+  position: absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.block {
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+  position: absolute;
+}
+
+.player {
+  width: 100px;
+  height: 20px;
+  background-color: purple;
+  position: absolute;
+}
+
+.ball {
+  width:  20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+  position: absolute;
+}
+
+#restart {
+  height: 400px;
+  position: relative;
+}
+
+#Btncenter{
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color:  var(--purple);
+  color: white;
+  border-color: var(--purple);
+  font-size: 18px;
+  transition: 200ms transform;
+  width: 100px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translate(-2px);
+}
